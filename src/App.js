@@ -58,7 +58,7 @@ function App() {
       <table className='books'>
         <thead>
           <tr>
-            <th onClick={() => sort('BookId')}>Id</th>
+            <th onClick={() => sort('BookID')}>Id</th>
             <th onClick={() => sort('Title')}>Title</th>
             <th onClick={() => sort('Author')}>Author</th>
             <th onClick={() => sort('Price')}>Price</th>

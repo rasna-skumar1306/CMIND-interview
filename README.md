@@ -17,3 +17,4 @@ SQL:
 “Pretending” that the data is in a table in a database named Book, write a SQL query that would  show just the Author and a sum of all the prices for each author
 
 answer: SELECT Author, sum(Price) FROM Book GROUP BY Author ;
+link: https://www.mycompiler.io/view/73ujZeM
